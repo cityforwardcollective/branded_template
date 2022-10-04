@@ -1,0 +1,20 @@
+---
+title: City Forward Collective Branded Extension
+mainfont: Verdana
+sansfont: Georgia
+format: 
+  pdf:
+    header-includes: |
+      \usepackage{titling}
+      \pretitle{%
+        \begin{center}
+        \huge
+        \setmainfont{Georgia}
+        \includegraphics[width=4cm,height=6cm]{_extensions/assets/img/logo.png}\\[\bigskipamount]
+      }
+      \posttitle{\end{center}}
+---
+
+## Test
+
+Let's test.
